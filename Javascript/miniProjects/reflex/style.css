@@ -1,0 +1,16 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background: #1f4037;
+    background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);
+    background: linear-gradient(to right, #99f2c8, #1f4037);
+}
+
+.container {
+    max-width: 60%;
+    background-color: aquamarine;
+    margin: 4% auto;
+}

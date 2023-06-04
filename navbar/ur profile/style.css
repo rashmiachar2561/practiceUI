@@ -1,0 +1,52 @@
+* {
+    background-color: rgb(90 132 105 / 87%)
+
+}
+
+.details {
+    width: 1000px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 20px;
+    padding-left: 10px;
+    border: 2px solid green;
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
+    /* background-color: rgb(90 132 105 / 87%) */
+}
+.profile-details {
+    /* margin: 0 auto; */
+
+    width: 501px;
+    margin-top: 40px;
+    color:white;
+    /* border: 1px solid rebeccapurple; */
+
+}
+
+.profile-details p{
+    font-weight: bold;
+    margin: 3px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    width: 952px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.image img {
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.images div{
+    margin-top: 10px;
+    display: inline;
+}
+
+h3 {
+    font-weight: bold;
+    color: orange;
+}

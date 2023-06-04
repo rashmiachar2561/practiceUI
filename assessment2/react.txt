@@ -1,0 +1,8 @@
+1. what is library
+its a set of code we can reuse it, we can build our librbary we will have more flexibility
+its helps to create SPA
+
+2. 2013 for react
+
+3. PWA
+It doesnt require internet always

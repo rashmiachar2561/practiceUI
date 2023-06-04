@@ -1,0 +1,30 @@
+Javascript Questions:
+1. What are operators?
+Operators are used to assign values, compare, perform arithmetic operations like (+,-,%, AND, && etc)
+
+2. What is eval()?
+Its not recommended to use as its a security risk, With eval(), malicious code can run inside your application without permission.
+
+3. isFinite() - > returns true if a value is a finite number
+4.  string to json -> var obj = JSON.parse('{"firstName":"John", "lastName":"Doe"}');
+    parse()	Parses a JSON string and returns a JavaScript object
+    stringify()	Convert a JavaScript object to a JSON string
+    JSON.stringify() omits properties which value is undefined
+
+5.    JSON.stringify(jsonObject, replacer) . how does replacer work?
+      its used to modify the json the way we want
+       let dog = {
+        name:'Jockey',
+        color:'brown',
+        age: 7
+       }
+       replacer(key,val){
+            if(key == 'age'){
+                return undefined
+            }
+            return value
+       }
+       let DogString = JSON.stringify(dog, replacer) -> o/p => {
+        "name":'Jockey',
+        "color":'brown'
+       }
