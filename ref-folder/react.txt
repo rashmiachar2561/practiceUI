@@ -1,15 +1,24 @@
 why react?
+        It is a light weight library ,It is used to create a SPA, mobile or server rendered applications
         The reason for React Leading the industry is mainly bcoz of its huge support base, although its not faster as other frameworks..
             its leading bcoz 1st its background(huge community) and 2nd old technology and more reliable
         it is popular mainly bcoz of its huge community and huge support base, 
          maintained by Meta, it has been supported by lot of people
         in 2011 it got started, 2013 it got public(became opensource)
-        It is used to create a SPA, mobile or server rendered applications
+        
 
-
+        17.0.1 (October 22, 2020) Mar 22, 2021. ...
+        17.0.0 (October 20, 2020) Oct 20, 2020
 what is redux?
         It is a state management JS library.. In applications there are like so much of data, lot of data changing here and there and 
         we use this library to manage this data, we want a centralized place where we can put all your data and helps in getting/updating data from any hierarchy
 
+1. what is library
+its a set of code we can reuse it, we can build our librbary we will have more flexibility
+its helps to create SPA
 
+2. 2013 for react
+
+3. PWA
+It doesnt require internet always 
 
